@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AFBD0A322C5FFD900C5F54C /* words.list in Resources */ = {isa = PBXBuildFile; fileRef = 0AFBD0A222C5FFD900C5F54C /* words.list */; };
+		EFE114941E73C4AE005683BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE114931E73C4AE005683BA /* main.m */; };
+		EFE114971E73C4AE005683BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE114961E73C4AE005683BA /* AppDelegate.m */; };
+		EFE1149A1E73C4AE005683BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE114991E73C4AE005683BA /* ViewController.m */; };
+		EFE1149D1E73C4AE005683BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE1149B1E73C4AE005683BA /* Main.storyboard */; };
+		EFE1149F1E73C4AE005683BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE1149E1E73C4AE005683BA /* Assets.xcassets */; };
+		EFE114A21E73C4AE005683BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE114A01E73C4AE005683BA /* LaunchScreen.storyboard */; };
+		EFE114AE1E73C532005683BA /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = EFE114AC1E73C532005683BA /* confuse.sh */; };
+		EFE114AF1E73C532005683BA /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = EFE114AD1E73C532005683BA /* func.list */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AFBD0A222C5FFD900C5F54C /* words.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.list; sourceTree = "<group>"; };
+		EFE1148F1E73C4AE005683BA /* GSKConfuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSKConfuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE114931E73C4AE005683BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFE114951E73C4AE005683BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFE114961E73C4AE005683BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFE114981E73C4AE005683BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFE114991E73C4AE005683BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFE1149C1E73C4AE005683BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFE1149E1E73C4AE005683BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE114A11E73C4AE005683BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFE114A31E73C4AE005683BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE114AB1E73C532005683BA /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
+		EFE114AC1E73C532005683BA /* confuse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = "<group>"; };
+		EFE114AD1E73C532005683BA /* func.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = func.list; sourceTree = "<group>"; };
+		EFE114B01E73C54F005683BA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE1148C1E73C4AE005683BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFE114861E73C4AE005683BA = {
+			isa = PBXGroup;
+			children = (
+				EFE114911E73C4AE005683BA /* GSKConfuse */,
+				EFE114901E73C4AE005683BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE114901E73C4AE005683BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE1148F1E73C4AE005683BA /* GSKConfuse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE114911E73C4AE005683BA /* GSKConfuse */ = {
+			isa = PBXGroup;
+			children = (
+				EFE114951E73C4AE005683BA /* AppDelegate.h */,
+				EFE114961E73C4AE005683BA /* AppDelegate.m */,
+				EFE114981E73C4AE005683BA /* ViewController.h */,
+				EFE114991E73C4AE005683BA /* ViewController.m */,
+				EFE1149B1E73C4AE005683BA /* Main.storyboard */,
+				EFE1149E1E73C4AE005683BA /* Assets.xcassets */,
+				EFE114A01E73C4AE005683BA /* LaunchScreen.storyboard */,
+				EFE114A31E73C4AE005683BA /* Info.plist */,
+				EFE114A91E73C4EB005683BA /* Resource */,
+				EFE114921E73C4AE005683BA /* Supporting Files */,
+			);
+			path = GSKConfuse;
+			sourceTree = "<group>";
+		};
+		EFE114921E73C4AE005683BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFE114931E73C4AE005683BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFE114A91E73C4EB005683BA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EFE114AB1E73C532005683BA /* codeObfuscation.h */,
+				EFE114AC1E73C532005683BA /* confuse.sh */,
+				0AFBD0A222C5FFD900C5F54C /* words.list */,
+				EFE114AD1E73C532005683BA /* func.list */,
+				EFE114B01E73C54F005683BA /* PrefixHeader.pch */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE1148E1E73C4AE005683BA /* GSKConfuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE114A61E73C4AE005683BA /* Build configuration list for PBXNativeTarget "GSKConfuse" */;
+			buildPhases = (
+				EFE1148B1E73C4AE005683BA /* Sources */,
+				EFE1148C1E73C4AE005683BA /* Frameworks */,
+				EFE1148D1E73C4AE005683BA /* Resources */,
+				EFE114AA1E73C519005683BA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSKConfuse;
+			productName = HSKConfuse;
+			productReference = EFE1148F1E73C4AE005683BA /* GSKConfuse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE114871E73C4AE005683BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "侯森魁";
+				TargetAttributes = {
+					EFE1148E1E73C4AE005683BA = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EFE1148A1E73C4AE005683BA /* Build configuration list for PBXProject "GSKConfuse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = EFE114861E73C4AE005683BA;
+			productRefGroup = EFE114901E73C4AE005683BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE1148E1E73C4AE005683BA /* GSKConfuse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE1148D1E73C4AE005683BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE114A21E73C4AE005683BA /* LaunchScreen.storyboard in Resources */,
+				0AFBD0A322C5FFD900C5F54C /* words.list in Resources */,
+				EFE114AF1E73C532005683BA /* func.list in Resources */,
+				EFE1149F1E73C4AE005683BA /* Assets.xcassets in Resources */,
+				EFE114AE1E73C532005683BA /* confuse.sh in Resources */,
+				EFE1149D1E73C4AE005683BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EFE114AA1E73C519005683BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PROJECT_DIR/GSKConfuse/Resource/confuse.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE1148B1E73C4AE005683BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE1149A1E73C4AE005683BA /* ViewController.m in Sources */,
+				EFE114971E73C4AE005683BA /* AppDelegate.m in Sources */,
+				EFE114941E73C4AE005683BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFE1149B1E73C4AE005683BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE1149C1E73C4AE005683BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFE114A01E73C4AE005683BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFE114A11E73C4AE005683BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFE114A41E73C4AE005683BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFE114A51E73C4AE005683BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFE114A71E73C4AE005683BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GSKConfuse/Resource/PrefixHeader.pch;
+				INFOPLIST_FILE = GSKConfuse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSKConfuse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFE114A81E73C4AE005683BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = GSKConfuse/Resource/PrefixHeader.pch;
+				INFOPLIST_FILE = GSKConfuse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSKConfuse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE1148A1E73C4AE005683BA /* Build configuration list for PBXProject "GSKConfuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE114A41E73C4AE005683BA /* Debug */,
+				EFE114A51E73C4AE005683BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE114A61E73C4AE005683BA /* Build configuration list for PBXNativeTarget "GSKConfuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE114A71E73C4AE005683BA /* Debug */,
+				EFE114A81E73C4AE005683BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE114871E73C4AE005683BA /* Project object */;
+}

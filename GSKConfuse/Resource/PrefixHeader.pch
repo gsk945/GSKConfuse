@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  GSKConfuse
+//
+//  Created by gsk945 on 2019/7/1.
+//  Copyright © 2017年 gsk. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "codeObfuscation.h"
+
+#endif /* PrefixHeader_pch */
