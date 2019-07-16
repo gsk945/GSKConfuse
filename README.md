@@ -22,7 +22,7 @@ iOS代码混淆（随机单词拼接）
   ```
   路径根据实际情况来
 1. 需要替换confuse.sh中文件的路径
- ![](https://github.com/gsk945/GSKConfuse/blob/master/GSKConfuse/screenshots/tu3.jpg)
+ ![](https://github.com/gsk945/GSKConfuse/blob/master/screenshots/tu3.jpg)
 ##   温馨提示
 1. codeObfuscation.h这个文件不能删除，但是可以清空，清空之后就是没替换过混淆的方法名，可以方便调试
 2. confuse.sh、words.list、func.list这三个文件都可以删除依赖关系，只要不删除文件就可以了，删除依赖关系之后打包不会有任何脚本信息，否则包内可能会有残留脚本
